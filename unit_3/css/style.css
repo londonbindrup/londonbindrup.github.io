@@ -1,19 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Hind:300);
 body{
-	background-image: url("../images/modelpic.jpg");
-	background-repeat:no-repeat; 
-	background-position: top center;
-	background-size: 80%;
-	font-family: Book Antiqua;
+	font-family: 'Hind', sans-serif;
 }
 
 nav,header{
-	font-size: 14px
+	font-size: 18px
 }
 
 #logo{
-	width:15%;
+	width:100%;
 }
 
 ul{
 	list-style-type: none;
+}
+
+div{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+
+section{
+	height: 800px;
 }
